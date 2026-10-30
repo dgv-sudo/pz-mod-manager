@@ -1,6 +1,6 @@
 <script lang="ts" module>
   /** The release whatsNew.notes describe (in every locale): bump it with them. Another version shows no notes. */
-  export const NOTES_FOR = "1.5.0";
+  export const NOTES_FOR = "1.5.1";
 </script>
 
 <script lang="ts">
@@ -11,7 +11,7 @@
   let { version, onClose }: { version: string; onClose: () => void } = $props();
 
   /** PZMM - Client on the Workshop: where a thumbs-up helps. */
-  const STEAM = "https://steamcommunity.com/sharedfiles/filedetails/?id=3818460225";
+  const STEAM = "https://steamcommunity.com/sharedfiles/filedetails/?id=3830170699";
   const notes = $derived(t("whatsNew.notes").split("\n").filter(Boolean));
 </script>
 

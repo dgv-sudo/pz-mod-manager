@@ -1,3 +1,7 @@
+# 1.5.1
+- PZMM has a new maintainer: byDGV takes over from Luke (SEVNC3), who made it. Your profiles, mods and settings stay exactly as they are.
+- Updates, the GitHub link and bug reports now go to github.com/dgv-sudo/pz-mod-manager. The Discord link goes to the Viewpoint Zomboid Community. The Ko-fi link is gone.
+
 # 1.5.0
 - Thanks to yustin and Mittens The Feared for recent ideas and bug reports.
 - New group makes a group of just the mods you picked, instead of taking every mod below them. Right-click a mod for Add to group, and click a selected mod again to deselect it. Thanks Yagoyuki on Discord.

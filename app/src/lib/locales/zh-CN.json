@@ -2467,7 +2467,6 @@
     "label": "PZMM 链接",
     "github": "GitHub 上的 PZMM：源代码、问题反馈和版本发布",
     "discord": "加入 PZMM Discord",
-    "kofi": "在 Ko-fi 上支持 PZMM",
     "comingSoon": "{label}（即将推出）"
   },
   "window": {
@@ -3498,7 +3497,7 @@
     "settingsHint": "之后可以在设置中更改。"
   },
   "whatsNew": {
-    "notes": "感谢 yustin、Mittens The Feared 最近提出的想法和错误报告。\n新建分组只放入你选中的模组\n右键：添加到分组；再点一次取消选择\n其他排序下也有分组标记和分组筛选\n拖到列表边缘即可滚动\n可以移除 Steam 留下的已取消订阅模组",
+    "notes": "PZMM 换了新的维护者：byDGV 从作者 Luke (SEVNC3) 手中接手。谢谢 Luke！\n你的配置、模组和设置都保持不变\n更新和错误报告：github.com/dgv-sudo/pz-mod-manager\n帮助和错误：Viewpoint Zomboid Community Discord",
     "title": "{version} 更新内容",
     "enjoying": "喜欢 PZMM 吗？",
     "upvote": "如果你喜欢这个应用，请在 Steam 上点个赞！",

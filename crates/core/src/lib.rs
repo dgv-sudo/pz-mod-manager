@@ -1,7 +1,7 @@
 //! PZMM core. `pz` holds every Project Zomboid specific; the rest is game-neutral.
 
 /// How PZMM introduces itself to web services (Steam limits requests per user agent).
-pub const USER_AGENT: &str = concat!("PZMM/", env!("CARGO_PKG_VERSION"), " (+https://github.com/SEVNC3/pz-mod-manager)");
+pub const USER_AGENT: &str = concat!("PZMM/", env!("CARGO_PKG_VERSION"), " (+https://github.com/dgv-sudo/pz-mod-manager)");
 
 pub mod history;
 pub mod profile;

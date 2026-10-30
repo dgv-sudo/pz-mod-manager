@@ -6,12 +6,12 @@
 
 <p align="center">
   A free mod manager, server browser and server host for Project Zomboid. Windows and Linux.<br>
-  <a href="../../releases/latest"><b>Download</b></a> · <a href="#install">Install</a> · <a href="https://discord.com/invite/6URUy6mNzu">Discord</a> · <a href="docs/FEATURES.md">Everything it does</a>
+  <a href="../../releases/latest"><b>Download</b></a> · <a href="#install">Install</a> · <a href="https://discord.gg/7Pcq8sybv">Discord</a> · <a href="docs/FEATURES.md">Everything it does</a>
 </p>
 
 <p align="center"><a href="https://youtu.be/MpBnMMRV-tM"><img src="docs/media/hero.gif" alt="PZMM: sorting a load order, browsing the Workshop and setting up Project Viewpoint" width="900"></a><br><a href="https://youtu.be/MpBnMMRV-tM">Watch the 2-minute video</a></p>
 
-I made PZMM because setting up [Project Viewpoint](https://steamcommunity.com/sharedfiles/filedetails/?id=3809306528) by hand was a pain. Then it kept growing: it's a proper mod manager now, it gets you into modded servers with the right mods, and it runs dedicated servers too.
+Luke (SEVNC3) made PZMM because setting up [Project Viewpoint](https://steamcommunity.com/sharedfiles/filedetails/?id=3809306528) by hand was a pain. Then it kept growing: it's a proper mod manager now, it gets you into modded servers with the right mods, and it runs dedicated servers too.
 
 <p align="center">
   <img src="docs/media/ai-banner.jpg" alt="I use AI to help with my projects. Welcome to the future baby: a robot with glowing red eyes, a man laughing and pointing at three Reddit comments calling PZMM vibecoded" width="900">
@@ -60,13 +60,15 @@ One click downloads Viewpoint and [ZombieBuddy](https://github.com/zed-0xff/Zomb
 It finds your game itself, turns your current mods into a profile called Default, and updates itself with signed updates. It only ever deletes mods it installed, and it shows you every change before joining a server or setting up ZombieBuddy.
 
 > [!WARNING]
-> Early access, so back up your saves. Only download it from [GitHub Releases](https://github.com/SEVNC3/pz-mod-manager/releases). Bugs go on [Discord](https://discord.com/invite/6URUy6mNzu) or in [an issue](https://github.com/SEVNC3/pz-mod-manager/issues/new?template=bug_report.yml), with **Settings > About > Copy diagnostics** pasted in.
+> Early access, so back up your saves. Only download it from [GitHub Releases](https://github.com/dgv-sudo/pz-mod-manager/releases). Bugs go on [Discord](https://discord.gg/7Pcq8sybv) or in [an issue](https://github.com/dgv-sudo/pz-mod-manager/issues/new?template=bug_report.yml), with **Settings > About > Copy diagnostics** pasted in.
 
 <img src="docs/media/section-links.png" alt="Links">
 
-[Discord](https://discord.com/invite/6URUy6mNzu) for help and bugs · [Nexus Mods](https://www.nexusmods.com/profile/SEVNC3) and [GitHub](https://github.com/SEVNC3) for whatever else I'm making · [Release notes](docs/release-notes/)
+[Discord](https://discord.gg/7Pcq8sybv) for help and bugs · [Release notes](docs/release-notes/)
 
-Free forever. If it saved you some time, there's a [Ko-fi](https://ko-fi.com/sevnc3).
+Free forever.
+
+PZMM was created by Luke (SEVNC3), who has stepped away from modding, and is now maintained by byDGV.
 
 <a id="for-developers"></a>
 <details>
@@ -143,10 +145,11 @@ The full plan is in [docs/FOUNDATION.md](docs/FOUNDATION.md). To release, set th
 
 ### Credits
 
+- PZMM was created by Luke ([SEVNC3](https://www.nexusmods.com/profile/SEVNC3)) and is maintained by byDGV since 1.5.1
 - [Anthropic](https://www.anthropic.com) for [Claude Code](https://claude.com/claude-code)
 - Icons: [Feather](https://feathericons.com) (MIT)
 - Fonts: [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), [IBM Plex Mono](https://github.com/IBM/plex) and [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker), all under the SIL Open Font License, via [Fontsource](https://fontsource.org)
-- Steam, GitHub, Discord and Ko-fi logos via [Logo.dev](https://logo.dev); they belong to their owners
+- Steam, GitHub and Discord logos via [Logo.dev](https://logo.dev); they belong to their owners
 - ZombieBuddy logo from [ZombieBuddy](https://github.com/zed-0xff/ZombieBuddy) by Andrey "Zed" Zaikin (MIT)
 - Server countries (off unless you turn them on): [country.is](https://country.is), which uses MaxMind GeoLite2 data
 - Project Zomboid and its art are The Indie Stone's, and Project Viewpoint belongs to its team. PZMM is a fan-made tool and isn't affiliated with either.

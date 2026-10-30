@@ -54,7 +54,7 @@
     "updater": {
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDVDRjA1RkZEMjNCODdDMDkKUldRSmZMZ2ovVi93WEtqNm55b0JVZkFGOFN5YmEvckkyUCtMakZlRmxXWHZ0TFJPdEtUSDhSK2sK",
       "endpoints": [
-        "https://github.com/SEVNC3/pz-mod-manager/releases/latest/download/latest.json"
+        "https://github.com/dgv-sudo/pz-mod-manager/releases/latest/download/latest.json"
       ],
       "windows": {
         "installMode": "passive"

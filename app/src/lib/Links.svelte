@@ -4,16 +4,14 @@
 
   // An empty url shows the icon as a disabled "coming soon" stub.
   const LINKS = {
-    github: "https://github.com/SEVNC3/pz-mod-manager",
-    discord: "https://discord.com/invite/6URUy6mNzu",
-    kofi: "https://ko-fi.com/sevnc3",
+    github: "https://github.com/dgv-sudo/pz-mod-manager",
+    discord: "https://discord.gg/7Pcq8sybv",
   };
 
   // Each brand's own logo (static/brand/*.png, downloaded once from logo.dev).
   const ICONS = [
     { key: "github", label: "links.github", glyph: true },
     { key: "discord", label: "links.discord", glyph: true },
-    { key: "kofi", label: "links.kofi", glyph: false },
   ] as const;
 </script>
 

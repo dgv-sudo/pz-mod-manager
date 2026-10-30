@@ -2935,7 +2935,7 @@
     <div class="app-update" role="status">
       {#if appProgress === null}
         <span>{@html th("app.updateAvailable", { version: appUpdate.version, current: appVersion })}</span>
-        <button class="quiet" onclick={() => api.openUrl(`https://github.com/SEVNC3/pz-mod-manager/releases/tag/v${appUpdate?.version}`)}>{t("app.whatsNew")}</button>
+        <button class="quiet" onclick={() => api.openUrl(`https://github.com/dgv-sudo/pz-mod-manager/releases/tag/v${appUpdate?.version}`)}>{t("app.whatsNew")}</button>
         <button class="quiet" onclick={() => (appUpdateLater = appUpdate?.version ?? "")}>{t("app.later")}</button>
         <button onclick={installAppUpdate} disabled={busy} title={busy ? t("app.waitTip") : ""}><Icon name="update" size={14} />{t("app.updateRestart")}</button>
       {:else}
