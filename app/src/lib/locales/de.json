@@ -2590,7 +2590,6 @@
     "label": "PZMM-Links",
     "github": "PZMM auf GitHub: Quellcode, Issues und Releases",
     "discord": "Dem PZMM-Discord beitreten",
-    "kofi": "PZMM auf Ko-fi unterstützen",
     "comingSoon": "{label} (bald verfügbar)"
   },
   "window": {
@@ -3676,7 +3675,7 @@
     "settingsHint": "Das lässt sich später in den Einstellungen ändern."
   },
   "whatsNew": {
-    "notes": "Danke an yustin und Mittens The Feared für die Ideen und Fehlerberichte der letzten Zeit.\nNeue Gruppe nimmt nur die ausgewählten Mods\nRechtsklick: Zur Gruppe hinzufügen; erneut klicken hebt die Auswahl auf\nGruppen-Markierungen und ein Gruppenfilter in anderen Sortierungen\nZum Scrollen an den Listenrand ziehen\nAbbestellte Mods, die Steam zurückgelassen hat, lassen sich entfernen",
+    "notes": "PZMM hat einen neuen Maintainer: byDGV übernimmt von Luke (SEVNC3), der es gebaut hat. Danke, Luke!\nDeine Profile, Mods und Einstellungen bleiben genau, wie sie sind\nUpdates und Fehlerberichte: github.com/dgv-sudo/pz-mod-manager\nHilfe und Bugs: der Discord Viewpoint Zomboid Community",
     "title": "Neu in {version}",
     "enjoying": "Gefällt dir PZMM?",
     "upvote": "Wenn dir die App gefällt, gib ihr bitte einen Daumen hoch auf Steam!",

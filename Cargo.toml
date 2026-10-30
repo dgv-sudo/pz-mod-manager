@@ -4,10 +4,10 @@ default-members = ["crates/core", "crates/cli"]
 resolver = "2"
 
 [workspace.package]
-version = "1.5.0"
+version = "1.5.1"
 edition = "2024"
 license = "MIT"
-repository = "https://github.com/SEVNC3/pz-mod-manager"
+repository = "https://github.com/dgv-sudo/pz-mod-manager"
 
 [profile.release]
 codegen-units = 1

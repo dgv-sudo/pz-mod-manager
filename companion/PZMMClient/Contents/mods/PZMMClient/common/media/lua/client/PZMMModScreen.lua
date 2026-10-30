@@ -150,11 +150,10 @@ end
 local function tex(name) return getTexture("media/ui/PZMM/" .. name .. ".png") end
 K.LOGO = tex("logo")
 -- the app's links (app/src/lib/Links.svelte), each brand's own logo
-K.RELEASES_URL = "https://github.com/SEVNC3/pz-mod-manager/releases/latest"
+K.RELEASES_URL = "https://github.com/dgv-sudo/pz-mod-manager/releases/latest"
 local LINKS = {
-    { tex("link_github"), "https://github.com/SEVNC3/pz-mod-manager", "GitHub", "GitHub\nThe PZMM app: download it, read the source, report a bug." },
-    { tex("link_discord"), "https://discord.com/invite/6URUy6mNzu", "Discord", "Discord\nHelp, ideas and the PZMM community." },
-    { tex("link_kofi"), "https://ko-fi.com/sevnc3", "Ko-fi", "Ko-fi\nBuy the developer a coffee: PZMM is free." },
+    { tex("link_github"), "https://github.com/dgv-sudo/pz-mod-manager", "GitHub", "GitHub\nThe PZMM app: download it, read the source, report a bug." },
+    { tex("link_discord"), "https://discord.gg/7Pcq8sybv", "Discord", "Discord\nHelp, ideas and the PZMM community." },
 }
 -- the app's top bar actions the game can do too: { id, icon, tooltip }
 local ACTIONS = {
@@ -1661,7 +1660,7 @@ function PZMMMods:prerenderScreen()
             tip(self, self.app and "Your PZMM profile\nIts sections sort My mods. Click to switch profile: PZMM asks first." or "Your sections\nKept in the game: drag mods between them, right-click a section to add, rename or remove one.")
         end
     else
-        local msg = self.app and "Open PZMM to see your profile's sections here" or "Get the PZMM app: github.com/SEVNC3/pz-mod-manager/releases/latest"
+        local msg = self.app and "Open PZMM to see your profile's sections here" or "Get the PZMM app: github.com/dgv-sudo/pz-mod-manager/releases/latest"
         local mxp, myp = self:getMouseX(), self:getMouseY()
         local over = mxp >= px and mxp < px + width(msg) and myp >= py and myp < py + BAR
         text(self, msg, px, ty, over and C.accent or C.muted)
@@ -8886,7 +8885,7 @@ K.NOTES = {}
 do (function() for _, n in ipairs({ readNotes("game", "In-game mod manager", "notes_game.txt"), readNotes("app", "Desktop app", "notes_app.txt") }) do
     if n.version ~= "" then K.NOTES[#K.NOTES + 1] = n end
 end end)() end
-K.RELEASES = "https://github.com/SEVNC3/pz-mod-manager/releases/latest"
+K.RELEASES = "https://github.com/dgv-sudo/pz-mod-manager/releases/latest"
 
 --- The patches whose notes you've opened (Zomboid/Lua/pzmm/seen.txt): lines of `<kind> <version>`.
 local function seenNotes()
@@ -9150,7 +9149,7 @@ K.COMMUNITY = {
     { "PZ Modding Community Discord (unofficial)", "https://discord.gg/ghRTHUTc94", { 30, 173, 276, 38 } },
     { "r/projectzomboid on Reddit", "https://www.reddit.com/r/projectzomboid/", { 30, 211, 276, 21 } },
     { "Steam Workshop", "https://steamcommunity.com/app/108600/workshop/", { 30, 232, 276, 21 } },
-    { "PZMM Discord", "https://discord.com/invite/6URUy6mNzu", { 30, 253, 276, 21 } },
+    { "PZMM Discord", "https://discord.gg/7Pcq8sybv", { 30, 253, 276, 21 } },
 }
 K.NOTE_W, K.NOTE_H, K.NOTE_TILT = 332, 340, math.rad(-2) -- the paper before the tilt, and the tilt
 K.NOTE_HOVER = {}
@@ -9164,7 +9163,7 @@ K.NOTE = tex("scrap_note")
 -- can do in part start with a notice of what's only in the app.
 
 --- The game opens only https pages, so PZMM starts through this page: it opens pzmm://game.
-K.LAUNCH = "https://sevnc3.github.io/pz-mod-manager/open/"
+K.LAUNCH = "https://dgv-sudo.github.io/pz-mod-manager/open/"
 
 --- Ask the PZMM app to do something (Zomboid/Lua/pzmm/requests.txt, a line per request: `<at>-<n>`, the
 --- profile shown, then install <ids>, backup <mode/name>, check, open <tab>, place..., section...). A running
@@ -15745,7 +15744,7 @@ function PZMMMods:drawSetAbout(x, y, w, mx, my)
         bx = bx + bw + 8
     end
     y = y + BAR + 14
-    -- the app's links: GitHub, Discord, Ko-fi
+    -- the app's links: GitHub, Discord
     bx = x
     for _, l in ipairs(LINKS) do
         local bw, bh2, o = flatButton(self, l[3], bx, y, mx, my, "quiet", TB.external)

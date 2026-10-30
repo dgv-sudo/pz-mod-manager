@@ -487,7 +487,7 @@
       <div class="card">
         <div class="set head">
           <div><h3>{t("settings.about.version", { version: appVersion })}</h3>
-            <p class="desc">{t("settings.about.official")} <button class="link" onclick={() => api.openUrl("https://github.com/SEVNC3/pz-mod-manager/releases")}>{"github.com/SEVNC3/pz-mod-manager"}</button></p></div>
+            <p class="desc">{t("settings.about.official")} <button class="link" onclick={() => api.openUrl("https://github.com/dgv-sudo/pz-mod-manager/releases")}>{"github.com/dgv-sudo/pz-mod-manager"}</button></p></div>
           <div class="acts"><button onclick={onCheckUpdate}><Icon name="update" size={14} />{t("settings.about.checkUpdates")}</button><Links /></div>
         </div>
       </div>
