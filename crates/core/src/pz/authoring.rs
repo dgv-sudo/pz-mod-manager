@@ -310,7 +310,8 @@ fn check_upload(dir: &Path, tags: &[String], out: &mut Vec<Finding>) {
         out.push(bad("Contents", "noContents", "no Contents/ folder: the uploader needs your mod in Contents/mods/", &[]));
         return;
     }
-    let entries: Vec<_> = fs::read_dir(&contents).into_iter().flatten().flatten().collect();
+    let mut entries: Vec<_> = fs::read_dir(&contents).into_iter().flatten().flatten().collect();
+    entries.sort_by_key(|e| e.file_name()); // folder listing order differs by OS
     if entries.is_empty() {
         out.push(bad("Contents", "emptyContents", "Contents/ is empty", &[]));
     }
@@ -326,7 +327,8 @@ fn check_upload(dir: &Path, tags: &[String], out: &mut Vec<Finding>) {
     }
     let mods = contents.join("mods");
     if mods.is_dir() {
-        let entries: Vec<_> = fs::read_dir(&mods).into_iter().flatten().flatten().collect();
+        let mut entries: Vec<_> = fs::read_dir(&mods).into_iter().flatten().flatten().collect();
+        entries.sort_by_key(|e| e.file_name());
         if entries.is_empty() {
             out.push(bad("Contents/mods", "emptyMods", "Contents/mods/ has no mod folder", &[]));
         }
