@@ -11,7 +11,7 @@
   let { version, onClose }: { version: string; onClose: () => void } = $props();
 
   /** PZMM - Client on the Workshop: where a thumbs-up helps. */
-  const STEAM = "https://steamcommunity.com/sharedfiles/filedetails/?id=3818460225";
+  const STEAM = "https://steamcommunity.com/sharedfiles/filedetails/?id=3830170699";
   const notes = $derived(t("whatsNew.notes").split("\n").filter(Boolean));
 </script>
 

@@ -8921,7 +8921,7 @@ PZMMNews = ISPanel:derive("PZMMNews")
 K.NEWS_W, K.NEWS_OPEN_W, K.NEWS_HEAD, K.NEWS_TABS = 280, 460, 60, H_SMALL + 19
 K.NEWS_GAP = 12 -- between the versions line and the tabs, open
 -- PZMM - Client on the Workshop: where a thumbs-up helps
-K.STEAM_PAGE = "https://steamcommunity.com/sharedfiles/filedetails/?id=3818460225"
+K.STEAM_PAGE = "https://steamcommunity.com/sharedfiles/filedetails/?id=3830170699"
 K.WHITE, K.PROMO_BG, K.PROMO_LINE, K.PROMO_RED, K.PROMO_TEXT = hex("ffffff"), hex("141414"), hex("2e2e2e"), hex("e0382f"), hex("e8e8e6")
 --- The promo banner's height: a strip of tape, a line under it.
 function K.promoH() return 12 + math.max(24, H_MARKER + 2) + 6 + H_SMALL + 12 end
